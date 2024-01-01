@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gamer survey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+<body>
+  <div class="header">
+  <h1 id="title"> League of legends gamer survey</h1>
+  </div>
+  
+  <div class="main">
+
+  <form id="survey-form">
+    
+    <label id="name-label">Your gamertag: </label><input id="name" type="text" required placeholder="Noob123"></input><br>
+    
+    <label id="email-label">Your gamer email: </label><input id="email" type="email" required placeholder="dadsmail@work.org"></input><br>
+    
+    <label id="number-label">Games played: </label><input type="number" id="number" min="0" max="1337" placeholder="666"></input><br>
+    <label>Which support do you rock with? &darr; </label><select id="dropdown">
+
+      <option value="sona">Sona</option>
+
+      <option value="lulu">Lulu</option>
+
+      <option value="leona">Leona</option>
+
+      <option value="brand">Brand</option>
+
+      <option value="nautilus">Nautilus</option>
+
+      <option value="blitzcrank">Blitzcrank</option>
+
+      </select><br>
+
+      <fieldset>
+
+        <legend>You can only pick one</legend>
+
+      <label for="diffy">supp diff</label><input id="diffy" value="diffy" name="buttons" type="radio"><br>
+
+
+      <label for="gapped">jg gap<input  name="buttons" type="radio" id="gapped" value="gapped"> 
+
+      </fieldset>
+
+      <fieldset>
+        <legend>What type of LoL-gamer are you?</legend>
+
+        <label for="tilt">Tilt-proof </label><input type="checkbox" value="checkbox-1" id="tilt"></input>
+
+        <label for="gg">gg wp </label><input type="checkbox" value="checkbox-2" id="gg"></input>
+
+        <label for="cs-god">> 10cs/min </label><input type="checkbox" value="checkbox-3" id="cs-god"></input><br>
+
+        <label for="sweaty">Tryhard</label><input type="checkbox" value="checkbox-4" id="sweaty"></input>
+
+        <label for="no-hands">0/15/2</label><input type="checkbox" value="checkbox-5" id="no-hands"></input>
+
+        <label for="rid">Run it down</label><input type="checkbox" value="checkbox-6" id="rid"></input>
+        
+        </fieldset>
+
+      <textarea name="textarea" placeholder="I love league because..." rows="4" cols="30"></textarea><br>
+      <input type="submit" id="submit" value="Submit">
+    </form>
+    </div>
+    <div class="footer">
+    <p> This form was made as a part of my certification process at <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a>. </p>
+  <p> 
+  My <a href="https:// github.com/ karlsundstrom"> Github </a> 
+  </p>
+  <p> My <a href="https://www.linkedin.com/in/karl-sundstrom/"> LinkedIn</a> </p>
+
+</body>
+</html>
